@@ -8,21 +8,21 @@ public class StudentDataWithUserInput
 
         //pobieranie danych od użytkownika
         System.out.println("Podaj imię: ");
-        String imieInput = scanner.nextLine();
+        String nameInput = scanner.nextLine();
         System.out.println("Podaj nazwisko: ");
-        String nazwiskoInput = scanner.nextLine();
+        String lastnameInput = scanner.nextLine();
         System.out.println("Podaj PESEL: ");
         String peselInput = scanner.nextLine();
-        System.out.println("Podaj kierunek: ");
-        String kierunekInput = scanner.nextLine();
-        System.out.println("Podaj grupę: ");
-        String grupaInput = scanner.nextLine();
+        System.out.println("Podaj kierunek studiów: ");
+        String majorInput = scanner.nextLine();
+        System.out.println("Podaj grupę, do której należy student: ");
+        String studygroupInput = scanner.nextLine();
 
         //wyświetlenie pobranych danych na konsoli
         System.out.println("Dane studenta: ");
-        System.out.println(imieInput + " " + nazwiskoInput);
+        System.out.println(nameInput + " " + lastnameInput);
         System.out.println("PESEL: " + peselInput);
-        System.out.println(kierunekInput + ", grupa " + grupaInput);
+        System.out.println(majorInput + ", grupa " + studygroupInput);
 
         scanner.close();
     }
