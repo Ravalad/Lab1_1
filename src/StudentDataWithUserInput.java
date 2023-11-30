@@ -22,7 +22,7 @@ public class StudentDataWithUserInput
         System.out.println("Dane studenta: ");
         System.out.println(nameInput + " " + lastnameInput);
         System.out.println("PESEL: " + peselInput);
-        System.out.println(majorInput + ", grupa " + studygroupInput);
+        System.out.println("Kierunek: " + majorInput + ", grupa " + studygroupInput);
 
         scanner.close();
     }
